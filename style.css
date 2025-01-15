@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas:
+    "header header"
+    "sidebar main";
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    grid-area: header;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #1992d4;
+    height: 100%;
+}
+
+.main-content {
+    grid-area: main;
+    background-color: #e2e8f0;
+    height: 100%;
+}
