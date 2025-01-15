@@ -50,3 +50,7 @@ body, html {
     width: 2rem;
     height: 2rem;
 }
+
+ul {
+    list-style-type: none;
+}
