@@ -27,6 +27,9 @@ body, html {
     background-color: #1992d4;
     height: 100%;
     grid-row: span 2;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: 600;
 }
 
 .main-content {
@@ -46,7 +49,7 @@ body, html {
     color: #ffffff;
 }
 
-.dashboard-icon {
+.sidebar img {
     width: 2rem;
     height: 2rem;
 }
