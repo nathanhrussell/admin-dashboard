@@ -44,7 +44,8 @@ body, html {
 }
 
 .sidebar img,
-.sidebar-item-list-one img {
+.sidebar-item-list-one img,
+.search-bar img {
     width: 2rem;
     height: 2rem;
 }
