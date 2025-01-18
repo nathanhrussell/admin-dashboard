@@ -86,3 +86,12 @@ ul {
     grid-template-columns: 2fr 1fr;
     align-items: center;
 }
+
+.search-bar input {
+    background-color: #e8ecf4;
+    padding: 7.5px;
+    border-radius: 25px;
+    grid-column: 1 / 2;
+    width: 100%;
+    border: none;
+}
