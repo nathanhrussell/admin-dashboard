@@ -95,3 +95,10 @@ ul {
     width: 100%;
     border: none;
 }
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
