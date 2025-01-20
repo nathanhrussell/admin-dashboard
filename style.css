@@ -93,7 +93,7 @@ ul {
     padding: 7.5px;
     border-radius: 25px;
     grid-column: 1 / 2;
-    width: 100%;
+    width: 100vh;
     border: none;
 }
 
@@ -102,16 +102,27 @@ ul {
     gap: 10px;
     align-items: center;
     flex-direction: row-reverse;
-    padding-bottom: 250px;
 }
 
 .cat-pp {
-    width: 8rem;
-    height: 8rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .profile-name {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-size: 30px;
+}
+
+.profile-panel {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.upper-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
