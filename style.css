@@ -161,3 +161,19 @@ ul {
     margin: 5px 0 0 0;
     line-height: 1.2;
 }
+
+.new-button,
+.upload-button,
+.share-button {
+    background-color: #2095d4;
+	border-radius: 28px;
+	display: inline-block;
+	cursor :pointer;
+	color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+	font-size: 20px;
+	padding: 16px 31px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #2f6627;
+}
