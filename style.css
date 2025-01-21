@@ -127,7 +127,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -50px;
+    margin-top: -10px;
 }
 
 .welcome-cat-pp {
@@ -140,4 +140,22 @@ ul {
     display: flex;
     align-items: center;
     font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.welcome-message-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.welcome-message-text p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.welcome-message-text h1 {
+    margin: 5px 0 0 0;
+    line-height: 1.2;
 }
