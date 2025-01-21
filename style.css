@@ -177,3 +177,10 @@ ul {
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #2f6627;
 }
+
+.header-buttons {
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
