@@ -129,3 +129,15 @@ ul {
     justify-content: space-between;
     margin-top: -50px;
 }
+
+.welcome-cat-pp {
+    width: 6rem;
+    height: 6rem;
+}
+
+.welcome-message {
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
