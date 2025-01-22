@@ -145,6 +145,7 @@ ul {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     gap: 10px;
+    margin-top: 50px
 }
 
 .welcome-message-section {
