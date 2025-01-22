@@ -147,10 +147,17 @@ ul {
     gap: 10px;
 }
 
+.welcome-message-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .welcome-message-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 5px;
 }
 
 .welcome-message-text p {
@@ -159,7 +166,7 @@ ul {
 }
 
 .welcome-message-text h1 {
-    margin: 5px 0 0 0;
+    margin: 0;
     line-height: 1.2;
 }
 
