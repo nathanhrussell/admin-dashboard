@@ -48,7 +48,8 @@ body, html {
 .sidebar img,
 .sidebar-item-list-one img,
 .search-bar img,
-.bell-icon {
+.bell-icon,
+.card img {
     width: 2rem;
     height: 2rem;
 }
