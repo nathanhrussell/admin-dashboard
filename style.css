@@ -213,11 +213,19 @@ ul {
 }
 
 .card {
-    background-color: red;
-    color: white;
+    background-color: #ffffff;;
     padding: 20px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.card h2 {
+    color: #000000;
+}
+
+.card p {
+    color: #636363;
 }
