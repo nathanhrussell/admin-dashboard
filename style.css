@@ -33,8 +33,13 @@ body, html {
 }
 
 .main-content {
-    grid-area: main;
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Adjusted to create a 3:1 ratio for the content and side-section */
+    grid-template-rows: 1fr; /* Single row but flexible height */
+    gap: 20px;
+    padding: 20px;
     background-color: #e2e8f0;
+    height: 100%; /* Ensure the content stretches to the full height of the container */
 }
 
 .sidebar-title {
@@ -198,7 +203,6 @@ ul {
     background-color: #e2e8f0;
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .projects-section h2 {
