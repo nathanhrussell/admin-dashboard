@@ -268,6 +268,15 @@ ul {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.announcements h2 {
+.side-section h2 {
     font-family: "Roboto", sans-serif;
+}
+
+.announcement-item {
+    padding: 10px 0;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.announcement-item:last-child {
+    border-bottom: none;
 }
