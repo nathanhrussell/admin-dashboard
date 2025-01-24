@@ -217,7 +217,7 @@ ul {
 
 .card {
     position: relative;
-    background-color: #ffffff;;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     flex-direction: column;
@@ -258,4 +258,12 @@ ul {
     height: 100%;
     background-color: #f0b429;
     border-radius: 10px 0 0 10px;
+}
+
+.announcements {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
