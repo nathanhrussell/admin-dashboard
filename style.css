@@ -216,10 +216,12 @@ ul {
     background-color: #ffffff;;
     padding: 20px;
     border-radius: 10px;
+    flex-direction: column;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     font-family: "Roboto", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card h2 {
