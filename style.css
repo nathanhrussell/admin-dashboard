@@ -213,6 +213,7 @@ ul {
 }
 
 .card {
+    position: relative;
     background-color: #ffffff;;
     padding: 20px;
     border-radius: 10px;
@@ -243,4 +244,15 @@ ul {
     justify-content: flex-end;
     margin-top: auto;
     width: 100%;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 100%;
+    background-color: #f0b429;
+    border-radius: 10px 0 0 10px;
 }
