@@ -111,7 +111,8 @@ ul {
     flex-direction: row-reverse;
 }
 
-.cat-pp {
+.cat-pp,
+.trending img {
     width: 3rem;
     height: 3rem;
 }
