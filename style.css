@@ -261,7 +261,8 @@ ul {
     border-radius: 10px 0 0 10px;
 }
 
-.announcements {
+.announcements,
+.trending {
     background-color: #ffffff;
     border-radius: 15px;
     padding: 20px;
@@ -280,4 +281,8 @@ ul {
 
 .announcement-item:last-child {
     border-bottom: none;
+}
+
+.trending span {
+    color: #636363;
 }
