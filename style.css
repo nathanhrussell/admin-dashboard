@@ -286,3 +286,24 @@ ul {
 .trending span {
     color: #636363;
 }
+
+.trending-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.trending-item:last-child {
+    margin-bottom: 5px;
+}
+
+.trending-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.trending p, h1 {
+    margin: 0;
+}
