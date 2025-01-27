@@ -111,8 +111,7 @@ ul {
     flex-direction: row-reverse;
 }
 
-.cat-pp,
-.trending img {
+.cat-pp {
     width: 3rem;
     height: 3rem;
 }
@@ -213,7 +212,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    height: 85%;
+    height: 88%;
 }
 
 .card {
@@ -291,7 +290,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .trending-item:last-child {
@@ -306,4 +305,14 @@ ul {
 
 .trending p, h1 {
     margin: 0;
+    font-size: 12px;
+}
+
+.trending {
+    height: 20.5%;
+}
+
+.trending img {
+    width: 2.5rem;
+    height: 2.5rem;
 }
