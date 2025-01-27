@@ -316,3 +316,7 @@ ul {
     width: 2.5rem;
     height: 2.5rem;
 }
+
+.welcome-message-text h1 {
+    font-size: 30px;
+}
